@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tiny Homes</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      margin-left: 10vw;
+      margin-right: 10vw;
+      background-color: #F2EBE3;
+    }
+    .section-light {
+      background-color: #BBD9F5;
+    }
+    .section-dark {
+      background-color: #3C5677;
+    }
+    .section {
+      padding: 60px 0;
+    }
+    #bar{
+      background-color: #3C5677;
+    }
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .img-slider {
+      max-width: 100%;
+      height: auto;
+    }
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div id="bar" class="container-fluid">
+      <a class="navbar-brand" href="#">Tiny Homes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Tiny Homes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Decks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Landscaping</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Full Page Image Slider -->
+  <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://unitedtinyhomes.com/wp-content/uploads/2024/02/amplified-tiny-house-img8ad1ca960ad8b9e6_14-6713-1-8e0f867-1170x670.jpg" class="d-block w-100" alt="Tiny House">
+      </div>
+      <div class="carousel-item">
+        <img src="https://truformtiny.com/wp-content/uploads/2024/04/Alm.36ftCascadeMax.w.BumpCloset.MurphyBed2.-84-1-scaled-e1715618892535-1536x904.jpg" class="d-block w-100" alt="Tiny Home">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.prod.website-files.com/5cd1e68968db65ba07de7bfb/5e38bfb4e654da54ec2ebc1a_TinyH%20(5%20of%2034)-p-1080.jpeg" class="d-block w-100" alt="Small House">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Section: What We Build -->
+  <section class="section section-light">
+    <div class="container">
+      <h2 class="text-center mb-5">What We Build</h2>
+      <p>We build custom tiny homes on wheels. Whether you have a design in mind or need inspiration, we can help you realize it. Our clients have requested starter homes, lake cabins for two, or a safe place for a loved one to stay close. We're open to hearing any request.</p>
+      <p>We specialize in Tiny Homes on Wheels, which offer several advantages:</p>
+      <ul>
+        <li><strong>Regulations:</strong> A home on wheels can bypass certain home regulations that a foundation-built structure cannot.</li>
+        <li><strong>Mobility:</strong> Your choice of location doesn't have to be permanent—you can take it with you when you move.</li>
+        <li><strong>Resale Value:</strong> Tiny homes can be resold when you're done with them, much more conveniently than an on-site built structure.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Section: Paw Paw’s Portable Palace -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <!-- Image Slider -->
+          <div id="pawPawCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1664369210144-90e51ddbbc30?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Paw Paw's Portable Palace">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1623286728232-9107cb8f6b11?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Accessible Tiny Home">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#pawPawCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#pawPawCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h3>Paw Paw’s Portable Palace - Economical Elegance for the Elderly</h3>
+          <p>Everything is on one level—no stairs, no hassle. Perfect for giving a parent or grandparent an independent living space right on your property. Built with comfort and accessibility in mind.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: High Hopes -->
+  <section class="section section-light">
+    <div class="container">
+      <div class="row align-items-center flex-md-row-reverse">
+        <div class="col-md-6">
+          <!-- Image Slider -->
+          <div id="highHopesCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://source.unsplash.com/800x600/?tiny-house,loft" class="d-block w-100" alt="High Hopes">
+              </div>
+              <div class="carousel-item">
+                <img src="https://source.unsplash.com/800x600/?small-home,loft" class="d-block w-100" alt="Lofted Tiny Home">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#highHopesCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#highHopesCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h3>High Hopes - Lofted Living for the Young at Heart</h3>
+          <p>This model features a loft bedroom, freeing up more living space below. Great for minimalists, adventurers, or anyone who wants a smart, airy layout.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Customization Options -->
+  <section class="section section-dark">
+    <div class="container">
+      <h2 class="text-center mb-5">Customization Options</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <!-- Image Slider -->
+          <div id="bathOptionsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1635247049694-0269c357ab69?q=80&w=1966&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Bathroom Options">
+              </div>
+              <div class="carousel-item">
+                <img src="https://plus.unsplash.com/premium_photo-1743715109006-12ddef337111?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Small Bathroom">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#bathOptionsCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#bathOptionsCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h4>Bath Options:</h4>
+          <ul>
+            <li><strong>Shower:</strong> Saves space and water.</li>
+            <li><strong>Standard Tub:</strong> A comfortable option if you have the room.</li>
+            <li><strong>Oversized Tub:</strong> If it's your top priority, we’ll make it happen.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+      <!-- Contact Section -->
+  <section class="section section-light text-center">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>We’d love to hear about your tiny dream.</p>
+      <p><strong>Phone:</strong> <a href="tel:6155985369">615-598-5369</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Tiny Homes. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+ 
